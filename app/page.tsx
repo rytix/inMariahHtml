@@ -1,7 +1,7 @@
-import TerapeutaCard from '../app/components/TerapeutaCard';
-import Faq from '../app/components/Faq';
-import Footer from '../app/components/Footer';
-import HeroHome from '../app/components/HeroHome';
+import Faq from '@/components/Faq';
+import Footer from '@/components/Footer';
+import HeroHome from '@/components/HeroHome';
+import TerapeutaCard from '@/components/TerapeutaCard';
 
 export default function Home() {
   return (
