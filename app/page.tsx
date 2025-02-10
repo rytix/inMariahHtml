@@ -2,6 +2,7 @@ import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
 import HeroHome from '@/components/HeroHome';
 import TerapeutaCard from '@/components/TerapeutaCard';
+import WhatsappButton from '@/components/WhatsappButton';
 
 export default function Home() {
   return (
@@ -102,6 +103,7 @@ export default function Home() {
           ]}
          />
         <Footer />
+        <WhatsappButton />
     </main>
   );
 }
