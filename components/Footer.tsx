@@ -38,9 +38,9 @@ export default function Footer() {
 
       <section className={styles.links}>
         <ul>
-          <li><Link href="#hero">Home</Link></li>
-          <li><Link href="#team">Terapeutas</Link></li>
-          <li><Link href="#sac">Contato</Link></li>
+          <li><Link href="https://inmariah.com.br/#hero">Home</Link></li>
+          <li><Link href="https://inmariah.com.br/#team">Terapeutas</Link></li>
+          <li><Link href="https://inmariah.com.br/#sac">Contato</Link></li>
         </ul>
       </section>
 

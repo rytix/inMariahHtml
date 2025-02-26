@@ -13,7 +13,7 @@ export default function HeroHome (){
 
                     Todos comprometidos com a transformação pessoal e coletiva, guiam os clientes em uma nova jornada de vida, marcada por harmonia, prosperidade e crescimento espiritual. </p>
                     <div>
-                        <a href="#team" className={styles.button}>Conheça os Terapeutas!</a>
+                        <a href="https://inmariah.com.br/#team" className={styles.button}>Conheça os Terapeutas!</a>
 
                         <a href="https://prana.inmariah.com.br" className={styles.button}>Salas do Biocomunicador</a>
                     </div>
