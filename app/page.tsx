@@ -25,18 +25,7 @@ export default function Home() {
               { nome: "Mentoring Espiritual", descricao: "Leitura profunda de sua situação emocional, profissional, física, mental e espiritual, abrangendo aspectos de vidas passadas, presente, futuro e entre vidas." },
             ]}
           />
-          <TerapeutaCard
-            nome="Dr. Ronaldo Ramalho"
-            especialidade="Terapia de Frequências"
-            descricao="Cofundador do Instituto InMariah, Dr. Ronaldo tem mais de 25 anos de experiência ajudando pessoas através das terapias de frequências."
-            imagem="/images/ronaldo.webp"
-            linkConsulta="https://wa.me/5511962880678"
-            terapias={[
-            { nome: "Terapia de Biocomunicação", descricao: "Utiliza frequências para equilibrar o corpo e a mente." },
-            { nome: "Terapia Quântica", descricao: "Trabalha com energias sutis para harmonizar emoções e pensamentos." },
-            { nome: "Harmonia Energética", descricao: "Auxilia na liberação de bloqueios energéticos para promover bem-estar." }
-            ]}
-          /> 
+          
           <TerapeutaCard
             nome="Rafael Praça"
             especialidade="Terapia dos Propósitos"

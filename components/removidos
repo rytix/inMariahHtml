@@ -1,0 +1,14 @@
+<TerapeutaCard
+  nome="Dr. Ronaldo Ramalho"
+  especialidade="Terapia de Frequências"
+  descricao="Cofundador do Instituto InMariah, Dr. Ronaldo tem mais de 25 anos de experiência ajudando pessoas através das terapias de frequências."
+  imagem="/images/ronaldo.webp"
+  linkConsulta="https://wa.me/5511962880678"
+  terapias={[
+  { nome: "Terapia de Biocomunicação", descricao: "Utiliza frequências para equilibrar o corpo e a mente." },
+  { nome: "Terapia Quântica", descricao: "Trabalha com energias sutis para harmonizar emoções e pensamentos." },
+  { nome: "Harmonia Energética", descricao: "Auxilia na liberação de bloqueios energéticos para promover bem-estar." }
+  ]}
+/> 
+
+<a href="https://prana.inmariah.com.br" className={styles.button}>Salas do Biocomunicador</a>

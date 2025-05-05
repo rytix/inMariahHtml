@@ -15,7 +15,8 @@ export default function HeroHome (){
                     <div>
                         <a href="https://inmariah.com.br/#team" className={styles.button}>Conheça os Terapeutas!</a>
 
-                        <a href="https://prana.inmariah.com.br" className={styles.button}>Salas do Biocomunicador</a>
+                        <p>Salas Coletivas do Biocomunicador em manutenção!</p>
+
                     </div>
                 </div>
                 <div className={styles.heroimage}>
