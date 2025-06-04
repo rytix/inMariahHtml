@@ -68,16 +68,7 @@ export default function Home() {
               { nome: "Frequenciamento Animal", descricao: "Oferece comunicação intuitiva e terapias energéticas para pets, utilizando técnicas como o Sistema Arcturiano, Tameana, Reiki e Comunicação Animal." },
             ]}
           />
-          <TerapeutaCard
-            nome="Alline Correa"
-            especialidade="Terapia de Autoabuso"
-            descricao="Focada em combater o autoabuso, autodestruição e autopunição, seja consciente ou inconsciente."
-            imagem="/images/alline.webp"
-            linkConsulta="https://wa.me/5511962880678"
-            terapias={[
-              { nome: "Terapia de Autoabuso", descricao: "Focada em combater o autoabuso, autodestruição e autopunição, seja consciente ou inconsciente." },
-            ]}
-          />
+
 
         </div>
       </div>
