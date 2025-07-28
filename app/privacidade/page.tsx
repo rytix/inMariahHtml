@@ -27,14 +27,14 @@ export default function Home() {
           <ul>
               <li><strong>Autenticação via Google (OAuth):</strong> Nome, e-mail e foto de perfil (caso autorizado).</li>
               <li><strong>Dados Pessoais para Compra:</strong> Nome completo, data de nascimento, e-mail e outras informações necessárias para processamento do atendimento.</li>
-              <li><strong>Foto do Paciente:</strong> Utilizada exclusivamente para tratamentos dentro do Instituto, sendo armazenada internamente na ficha do paciente.</li>
+              <li><strong>Foto do cliente:</strong> Utilizada exclusivamente para tratamentos dentro do Instituto, sendo armazenada internamente na ficha do cliente.</li>
           </ul>
 
           <h3>1.2. Finalidade da Coleta</h3>
           <p>Os dados coletados são utilizados para:</p>
           <ul>
               <li>Viabilizar a compra e utilização dos serviços oferecidos pelo nosso Instituto de atendimento holístico.</li>
-              <li>Personalizar o atendimento de acordo com o perfil do paciente.</li>
+              <li>Personalizar o atendimento de acordo com o perfil do cliente.</li>
               <li>Garantir a segurança e a confiabilidade do serviço.</li>
           </ul>
           <p>Se você fornecer informações de terceiros (como nome ou foto de outra pessoa), você declara ter a autorização necessária para utilizá-las.</p>
