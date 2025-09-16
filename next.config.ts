@@ -1,7 +1,20 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      {
+        source: '/paranormal',
+        destination: 'https://prana.inmariah.com.br/paranormal',
+        permanent: true, // 301 redirect
+      },
+      {
+        source: '/alegriadeviver',
+        destination: 'https://prana.inmariah.com.br/alegriadeviver',
+        permanent: true, // 301 redirect
+      },
+    ]
+  },
 };
 
 export default nextConfig;
