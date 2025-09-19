@@ -17,6 +17,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
+    - name: Parar aplicação
+      run: pm2 stop inmariahhtml || true
+
     - name: Instalar dependências
       run: npm install
 
