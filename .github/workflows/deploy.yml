@@ -1,0 +1,28 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+    - master
+
+concurrency:
+  group: deploy-master
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Instalar dependências
+      run: npm install
+
+    - name: Build
+      run: npm run build
+
+    - name: Reiniciar aplicação
+      run: |
+        pm2 restart inmariahhtml || pm2 start npm --name "inmariahhtml" -- start
