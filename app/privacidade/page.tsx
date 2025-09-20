@@ -44,7 +44,7 @@ export default function Home() {
           <ul>
               <li>Se exigido por lei ou por ordem judicial.</li>
               <li>Quando necessário para cumprir obrigações legais e regulatórias.</li>
-              <li>Com prestadores de serviço essenciais para a operação da plataforma, sempre garantindo a segurança e confidencialidade dos dados.</li>
+              <li>Com prestadores de serviço para a operação da plataforma, sempre garantindo a segurança e confidencialidade dos dados.</li>
           </ul>
 
           <h3>3. Armazenamento e Segurança dos Dados</h3>
