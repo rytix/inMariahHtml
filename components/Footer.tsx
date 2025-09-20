@@ -41,6 +41,8 @@ export default function Footer() {
           <li><Link href="https://inmariah.com.br/#hero">Home</Link></li>
           <li><Link href="https://inmariah.com.br/#team">Terapeutas</Link></li>
           <li><Link href="https://inmariah.com.br/#sac">Contato</Link></li>
+          <li><Link href="https://inmariah.com.br/termos">Termos de Uso</Link></li>
+          <li><Link href="https://inmariah.com.br/privacidade">Politicas de Privacidade</Link></li>
         </ul>
       </section>
 
